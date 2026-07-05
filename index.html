@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>甄試專用 - 呂承昊老師 數位學習研習履歷</title>
+<style>
+    :root {
+        --primary-color: #2c3e50;
+        --secondary-color: #34495e;
+        --accent-color: #007acc;
+        --bg-color: #f4f7f6;
+        --text-color: #333;
+        --card-bg: #ffffff;
+    }
+    body {
+        font-family: 'Segoe UI', "Microsoft JhengHei", Arial, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        line-height: 1.6;
+        margin: 0;
+        padding: 40px 20px;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        background: var(--card-bg);
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+    
+    /* 個人檔案區塊設計 */
+    .profile-header {
+        display: flex;
+        align-items: center;
+        border-bottom: 3px solid var(--accent-color);
+        padding-bottom: 25px;
+        margin-bottom: 30px;
+    }
+    .profile-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid #ecf0f1;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        margin-right: 30px;
+    }
+    .profile-info h1 {
+        margin: 0 0 5px 0;
+        color: var(--primary-color);
+        font-size: 2.2em;
+    }
+    .profile-info h2 {
+        margin: 0 0 10px 0;
+        color: #7f8c8d;
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+    .profile-info p {
+        margin: 0;
+        color: var(--accent-color);
+        font-weight: bold;
+        font-size: 1.1em;
+        background-color: #e6f2ff;
+        display: inline-block;
+        padding: 5px 15px;
+        border-radius: 20px;
+    }
+
+    /* 總結區塊 */
+    .summary-box {
+        background-color: #f8fbfa;
+        border-left: 5px solid #1abc9c;
+        padding: 20px 25px;
+        margin-bottom: 35px;
+        border-radius: 0 8px 8px 0;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    }
+    .summary-box h3 {
+        margin-top: 0;
+        color: #16a085;
+        font-size: 1.3em;
+    }
+    .summary-box ul {
+        margin: 0;
+        padding-left: 20px;
+    }
+    .summary-box li {
+        margin-bottom: 10px;
+        font-size: 1.05em;
+    }
+
+    /* 表格設計 */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 0 0 1px #e0e0e0;
+    }
+    th, td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    th {
+        background-color: var(--secondary-color);
+        color: white;
+        text-align: center;
+        font-size: 1.05em;
+    }
+    td {
+        vertical-align: middle;
+    }
+    .date {
+        text-align: center;
+        white-space: nowrap;
+        color: #555;
+        font-weight: 500;
+    }
+    .hours {
+        text-align: center;
+        font-weight: bold;
+        color: var(--primary-color);
+    }
+    
+    /* 研習分類標籤樣式 */
+    .tag-wrapper {
+        text-align: center;
+    }
+    .tag {
+        display: inline-block;
+        padding: 6px 12px;
+        border-radius: 20px;
+        font-size: 0.9em;
+        font-weight: bold;
+        color: #fff;
+        min-width: 85px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .tag-basic { background-color: #e74c3c; } /* 基礎必修 */
+    .tag-literacy { background-color: #f39c12; } /* 數位素養 */
+    .tag-advanced { background-color: #3498db; } /* 進階應用 */
+
+    tbody tr:nth-child(even) {
+        background-color: #fcfcfc;
+    }
+    tbody tr:hover {
+        background-color: #f1f8ff;
+        transition: background-color 0.2s ease;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="profile-header">
+        <img src="teacher.jpg" alt="呂承昊 老師" class="profile-img">
+        <div class="profile-info">
+            <h1>呂承昊</h1>
+            <h2>中華國中 ｜ 教師</h2>
+            <p>數位學習精進方案 研習履歷對比表</p>
+        </div>
+    </div>
+
+    <div class="summary-box">
+        <h3>💡 數位教學量能總結</h3>
+        <ul>
+            <li><strong>基礎完備：</strong>已100%完成教育部規定之「A1數位學習工作坊(一)」與「A2數位學習工作坊(二)」。</li>
+            <li><strong>素養達標：</strong>具備多次「A3數位素養增能研習」認證，熟稔資訊安全與數位倫理。</li>
+            <li><strong>進階實戰與AI融入：</strong>不僅完成 B3 (數位教學指引)、B4 (領域融入)、B5 (AI融入) 等進階課程，更大量參與 Google Workspace、Gemini AI、NotebookLM 等實戰研習，具備將最新AI科技轉化為課堂教學與班級經營的即戰力。</li>
+        </ul>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th width="15%">研習分類</th>
+                <th width="12%">研習時間</th>
+                <th width="63%">課程名稱</th>
+                <th width="10%">研習時數</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-basic">基礎必修 A1</span></td>
+                <td class="date">111/08/25</td>
+                <td>宜蘭縣111年度數位學習精進方案一均一場A1數位學習工作坊(一)</td>
+                <td class="hours">3 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-basic">基礎必修 A2</span></td>
+                <td class="date">113/05/14</td>
+                <td>[精進數位] A2數位學習工作坊(二)</td>
+                <td class="hours">3 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-basic">基礎必修 A2</span></td>
+                <td class="date">112/02/03</td>
+                <td>[宜蘭教網中心-寒假研習] A2數位學習工作坊-Google文書處理好工具</td>
+                <td class="hours">3 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-basic">基礎必修 A2</span></td>
+                <td class="date">111/02/10</td>
+                <td>宜蘭縣數位學習推動計畫一數位學習工作坊(二)【均一初階研習】疫情下的數位學習和平台運用</td>
+                <td class="hours">3 小時</td>
+            </tr>
+
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-literacy">數位素養 A3</span></td>
+                <td class="date">115/05/01</td>
+                <td>[精進數位] A3數位素養增能研習</td>
+                <td class="hours">3 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-literacy">數位素養 A3</span></td>
+                <td class="date">113/08/06</td>
+                <td>[精進數位] 宜蘭教網中心-暑假研習課程A3數位素養增能研習</td>
+                <td class="hours">3 小時</td>
+            </tr>
+
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 B3</span></td>
+                <td class="date">114/04/22</td>
+                <td>[精進數位] 「B3數位教學指引3.0教師培力工作坊」-宜蘭場</td>
+                <td class="hours">6 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 B4</span></td>
+                <td class="date">112/07/03</td>
+                <td>【精進數位】【國中自然】112學年度上學期數位學習融入教學研習(B4)</td>
+                <td class="hours">3 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 B5</span></td>
+                <td class="date">114/08/12</td>
+                <td>[精進數位] 宜蘭教網中心-暑假研習課程B5-1生成式AI融入教學工作坊</td>
+                <td class="hours">3 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 AI</span></td>
+                <td class="date">115/02/11</td>
+                <td>[精進數位] 宜蘭教網中心-寒假研習 Tmail Google Workspace Gemini Al應用說明會</td>
+                <td class="hours">1 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 跨域</span></td>
+                <td class="date">115/01/05</td>
+                <td>[精進數位] 國中數學AI跨領域×邏輯 密室逃脫的設計應用</td>
+                <td class="hours">2 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 Google</span></td>
+                <td class="date">114/10/16</td>
+                <td>[精進數位] 宜蘭教育好厝邊-Google 教學名人堂:Reference School 經驗大公開!</td>
+                <td class="hours">1 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 實戰</span></td>
+                <td class="date">114/07/31</td>
+                <td>[精進數位] 教育AJ—日通:從入門到實戰應用</td>
+                <td class="hours">3 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 Google</span></td>
+                <td class="date">114/07/10</td>
+                <td>【精進數位】宜蘭教網中心-署假研習課程【初階】Google Site 協作平台打造自主學習自學力</td>
+                <td class="hours">3 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 Google</span></td>
+                <td class="date">114/05/15</td>
+                <td>[精進數位] 宜蘭教育好厝邊-Google Classroom 魔法學院:打造超強互動教室!</td>
+                <td class="hours">1 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 AI</span></td>
+                <td class="date">114/02/06</td>
+                <td>[精進數位]【宜蘭教網中心-寒假研習課程】Google Al 備課流-NotebookLM + Gemini 應用妙招</td>
+                <td class="hours">3 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 工具</span></td>
+                <td class="date">114/01/22</td>
+                <td>【精進數位】【宜蘭教網中心-寒假研習課程】Canva結合雙平臺,學習單製作好簡單</td>
+                <td class="hours">3 小時</td>
+            </tr>
+            <tr>
+                <td class="tag-wrapper"><span class="tag tag-advanced">進階應用 AI助理</span></td>
+                <td class="date">112/07/17</td>
+                <td>112年度「推動中小學數位學習精進方案」-AI數位助理:教學行政雙效升級(基礎篇)</td>
+                <td class="hours">3 小時</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
